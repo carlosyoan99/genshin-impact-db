@@ -1,0 +1,74 @@
+import React, { useState, useMemo } from 'react';
+import { useGenshinData } from '../../hooks/useGenshinData';
+import ArtifactCard from '../../components/Cards/ArtifactCard';
+import ArtifactFilters from '../../components/Filters/ArtifactFilters';
+import LoadingSpinner from '../../components/Common/LoadingSpinner';
+
+const Artifacts = () => {
+  const { artifacts, loading, error } = useGenshinData();
+  const [filters, setFilters] = useState({ minRarity: 'all' });
+  const [searchTerm, setSearchTerm] = useState('');
+
+  const handleFilterChange = (filterType, value) => {
+    if (filterType === 'clear') {
+      setFilters({ minRarity: 'all' });
+      setSearchTerm('');
+    } else {
+      setFilters(prev => ({ ...prev, [filterType]: value }));
+    }
+  };
+
+  const filteredArtifacts = useMemo(() => {
+    return artifacts.filter(artifact => {
+      const matchesSearch = artifact.name
+        .toLowerCase()
+        .includes(searchTerm.toLowerCase());
+      const matchesRarity =
+        filters.minRarity === 'all' ||
+        Math.max(...artifact.rarity) >= parseInt(filters.minRarity);
+
+      return matchesSearch && matchesRarity;
+    });
+  }, [artifacts, filters, searchTerm]);
+
+  if (loading) return <LoadingSpinner message="Cargando artefactos..." />;
+  if (error) return <div className="error">{error}</div>;
+
+  return (
+    <div className="page">
+      <header className="page-header">
+        <h1>Artefactos</h1>
+        <p>Encuentra los mejores sets de artefactos para tus personajes</p>
+      </header>
+
+      <ArtifactFilters
+        filters={filters}
+        onFilterChange={handleFilterChange}
+        artifacts={artifacts}
+        searchTerm={searchTerm}
+        onSearchChange={setSearchTerm}
+      />
+
+      <div className="stats">
+        <span>
+          Mostrando {filteredArtifacts.length} de {artifacts.length} artefactos
+        </span>
+      </div>
+
+      <div className="cards-grid">
+        {filteredArtifacts.map(artifact => (
+          <ArtifactCard key={artifact.id} artifact={artifact} />
+        ))}
+      </div>
+
+      {filteredArtifacts.length === 0 && (
+        <div className="no-results">
+          <h3>No se encontraron artefactos</h3>
+          <p>Intenta ajustar los filtros o términos de búsqueda</p>
+        </div>
+      )}
+    </div>
+  );
+};
+
+export default Artifacts;

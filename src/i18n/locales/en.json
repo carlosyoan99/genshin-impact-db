@@ -1,0 +1,98 @@
+{
+  "nav": {
+    "home": "Home",
+    "characters": "Characters",
+    "weapons": "Weapons",
+    "artifacts": "Artifacts",
+    "materials": "Materials",
+    "food": "Food",
+    "potions": "Potions",
+    "achievements": "Achievements",
+    "enemies": "Enemies",
+    "about": "About"
+  },
+  "common": {
+    "loading": "Loading",
+    "search": "Search",
+    "filters": "Filters",
+    "clearFilters": "Clear Filters",
+    "activeFilters": "Active Filters",
+    "showing": "Showing",
+    "of": "of",
+    "items": "items",
+    "back": "Back",
+    "details": "Details",
+    "description": "Description",
+    "effect": "Effect",
+    "rarity": "Rarity",
+    "type": "Type",
+    "category": "Category",
+    "source": "Source",
+    "reward": "Reward",
+    "requirements": "Requirements"
+  },
+  "home": {
+    "title": "Genshin Impact Database",
+    "subtitle": "Explore all content from the world of Teyvat"
+  },
+  "characters": {
+    "title": "Characters",
+    "subtitle": "Explore all playable characters from Genshin Impact",
+    "searchPlaceholder": "Search characters...",
+    "element": "Element",
+    "weaponType": "Weapon Type",
+    "allElements": "All Elements",
+    "allWeapons": "All Weapons",
+    "allRarities": "All Rarities"
+  },
+  "weapons": {
+    "title": "Weapons",
+    "subtitle": "Discover all weapons available in Teyvat",
+    "searchPlaceholder": "Search weapons...",
+    "allTypes": "All Types",
+    "allRarities": "All Rarities"
+  },
+  "artifacts": {
+    "title": "Artifacts",
+    "subtitle": "Find the best artifact sets for your characters",
+    "searchPlaceholder": "Search artifacts...",
+    "minRarity": "Minimum Rarity"
+  },
+  "materials": {
+    "title": "Materials",
+    "subtitle": "Find all materials for ascension, talents and crafting",
+    "searchPlaceholder": "Search materials...",
+    "allTypes": "All Types"
+  },
+  "food": {
+    "title": "Food",
+    "subtitle": "Discover all culinary recipes from Teyvat and their effects",
+    "searchPlaceholder": "Search food...",
+    "dishType": "Dish Type",
+    "allDishes": "All Dishes"
+  },
+  "potions": {
+    "title": "Potions",
+    "subtitle": "Explore potions and their battle effects",
+    "searchPlaceholder": "Search potions..."
+  },
+  "achievements": {
+    "title": "Achievements",
+    "subtitle": "Discover all available achievements and rewards",
+    "searchPlaceholder": "Search achievements..."
+  },
+  "enemies": {
+    "title": "Enemies",
+    "subtitle": "Meet the enemies you'll encounter on your adventure through Teyvat",
+    "searchPlaceholder": "Search enemies..."
+  },
+  "about": {
+    "title": "About",
+    "subtitle": "Information about this application and credits"
+  },
+  "notFound": {
+    "title": "Page Not Found",
+    "message": "Oops! It seems you got lost in the vast world of Teyvat.",
+    "suggestions": "Maybe you wanted to visit:"
+  }
+}
