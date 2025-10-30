@@ -1,16 +1,41 @@
-# React + Vite
+# 🎮 Genshin Impact Database
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A comprehensive and beautifully designed database for Genshin Impact built with React and Vite. Explore characters, weapons, artifacts, materials, food, potions, achievements, and enemies from the world of Teyvat.
 
-Currently, two official plugins are available:
+![Genshin Impact DB](https://img.shields.io/badge/Genshin-Impact-orange?style=for-the-badge&logo=genshinimpact)
+![React](https://img.shields.io/badge/React-18.2-blue?style=for-the-badge&logo=react)
+![Vite](https://img.shields.io/badge/Vite-4.4-purple?style=for-the-badge&logo=vite)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## ✨ Features
 
-## React Compiler
+- **🌐 Multi-language Support** - 8 languages (English, Spanish, French, German, Japanese, Korean, Russian, Chinese)
+- **🎨 Theme Switching** - Light and dark mode with system preference detection
+- **🔍 Advanced Filtering** - Filter by element, weapon type, rarity, and more
+- **📱 Responsive Design** - Works perfectly on desktop, tablet, and mobile
+- **⚡ Fast Performance** - Built with Vite for optimal loading speeds
+- **🎯 Comprehensive Data** - Characters, weapons, artifacts, materials, food, potions, achievements, enemies
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## 🗂️ Sections
 
-## Expanding the ESLint configuration
+- **Characters** - All playable characters with detailed information
+- **Weapons** - Complete weapon database with stats and effects
+- **Artifacts** - Artifact sets and their bonuses
+- **Materials** - Ascension and talent materials
+- **Food** - Cooking recipes and their effects
+- **Potions** - Battle potions and elixirs
+- **Achievements** - All in-game achievements
+- **Enemies** - Enemy database with types and locations
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🚀 Getting Started
+
+### Prerequisites
+
+- Node.js 16+ 
+- npm or yarn
+
+### Installation
+
+1. Clone the repository
+```bash
+git clone https://github.com/TU_USUARIO/genshin-impact-db.git
+cd genshin-impact-db
