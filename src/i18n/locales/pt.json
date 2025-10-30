@@ -1,0 +1,129 @@
+{
+  "nav": {
+    "home": "Início",
+    "characters": "Personagens",
+    "weapons": "Armas",
+    "artifacts": "Artefatos",
+    "materials": "Materiais",
+    "food": "Comidas",
+    "potions": "Poções",
+    "achievements": "Conquistas",
+    "enemies": "Inimigos",
+    "about": "Sobre"
+  },
+  "common": {
+    "loading": "Carregando",
+    "search": "Buscar",
+    "filters": "Filtros",
+    "clearFilters": "Limpar Filtros",
+    "activeFilters": "Filtros Ativos",
+    "showing": "Mostrando",
+    "of": "de",
+    "items": "itens",
+    "back": "Voltar",
+    "details": "Detalhes",
+    "description": "Descrição",
+    "effect": "Efeito",
+    "rarity": "Raridade",
+    "type": "Tipo",
+    "category": "Categoria",
+    "source": "Fonte",
+    "reward": "Recompensa",
+    "requirements": "Requisitos",
+    "element": "Elemento",
+    "weapon": "Arma",
+    "region": "Região",
+    "constellation": "Constelação",
+    "birthday": "Aniversário",
+    "notFound": "Não Encontrado"
+  },
+  "home": {
+    "title": "Banco de Dados do Genshin Impact",
+    "subtitle": "Explore todo o conteúdo do mundo de Teyvat"
+  },
+  "characters": {
+    "title": "Personagens",
+    "subtitle": "Explore todos os personagens jogáveis do Genshin Impact",
+    "searchPlaceholder": "Buscar personagens...",
+    "element": "Elemento",
+    "weaponType": "Tipo de Arma",
+    "allElements": "Todos os Elementos",
+    "allWeapons": "Todas as Armas",
+    "allRarities": "Todas as Raridades",
+    "notFound": "Personagem não encontrado",
+    "skills": "Habilidades",
+    "passives": "Talentos Passivos",
+    "constellations": "Constelações",
+    "unlock": "Desbloqueio"
+  },
+  "weapons": {
+    "title": "Armas",
+    "subtitle": "Descubra todas as armas disponíveis em Teyvat",
+    "searchPlaceholder": "Buscar armas...",
+    "allTypes": "Todos os Tipos",
+    "allRarities": "Todas as Raridades",
+    "notFound": "Arma não encontrada",
+    "baseAtk": "ATQ Base",
+    "substat": "Sub-atributo",
+    "subvalue": "Valor do Sub-atributo",
+    "effectName": "Nome do Efeito",
+    "stats": "Status por Nível",
+    "level": "Nível",
+    "attack": "Ataque",
+    "ascension": "Ascensão",
+    "phase": "Fase",
+    "cost": "Custo"
+  },
+  "artifacts": {
+    "title": "Artefatos",
+    "subtitle": "Encontre os melhores conjuntos de artefatos para seus personagens",
+    "searchPlaceholder": "Buscar artefatos...",
+    "minRarity": "Raridade Mínima",
+    "notFound": "Artefato não encontrado",
+    "twoPiece": "Bônus de 2 Peças",
+    "fourPiece": "Bônus de 4 Peças",
+    "pieces": "Peças do Conjunto",
+    "flower": "Flor da Vida",
+    "plume": "Pena da Morte",
+    "sands": "Areia do tempo",
+    "goblet": "Cálice de Eonothem",
+    "circlet": "Tiara de Logos"
+  },
+  "materials": {
+    "title": "Materiais",
+    "subtitle": "Encontre todos os materiais para ascensão, talentos e fabricação",
+    "searchPlaceholder": "Buscar materiais...",
+    "allTypes": "Todos os Tipos"
+  },
+  "food": {
+    "title": "Comidas",
+    "subtitle": "Descubra todas as receitas culinárias de Teyvat e seus efeitos",
+    "searchPlaceholder": "Buscar comidas...",
+    "dishType": "Tipo de Prato",
+    "allDishes": "Todos os Pratos"
+  },
+  "potions": {
+    "title": "Poções",
+    "subtitle": "Explore as poções e seus efeitos em batalha",
+    "searchPlaceholder": "Buscar poções..."
+  },
+  "achievements": {
+    "title": "Conquistas",
+    "subtitle": "Descubra todas as conquistas e recompensas disponíveis",
+    "searchPlaceholder": "Buscar conquistas..."
+  },
+  "enemies": {
+    "title": "Inimigos",
+    "subtitle": "Conheça os inimigos que você encontrará em sua aventura por Teyvat",
+    "searchPlaceholder": "Buscar inimigos..."
+  },
+  "about": {
+    "title": "Sobre",
+    "subtitle": "Informações sobre esta aplicação e créditos"
+  },
+  "notFound": {
+    "title": "Página Não Encontrada",
+    "message": "Ops! Parece que você se perdeu no vasto mundo de Teyvat.",
+    "suggestions": "Talvez você quisesse visitar:"
+  }
+}

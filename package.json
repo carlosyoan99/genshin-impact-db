@@ -11,7 +11,11 @@
     "preview": "vite preview",
     "format": "prettier --write .",
     "format:check": "prettier --check .",
+<<<<<<< HEAD
     "deploy": "npm run build && gh-page -d dist"
+=======
+    "deploy" : "npm run build && gh-pages -d dist"
+>>>>>>> 6dffbf6 (Actualizando algunos detalles y el idioma)
   },
   "dependencies": {
     "genshin-data": "^0.55.0",
@@ -36,6 +40,7 @@
     "eslint-plugin-react": "^7.37.5",
     "eslint-plugin-react-hooks": "^5.2.0",
     "eslint-plugin-react-refresh": "^0.4.24",
+    "gh-pages": "^6.3.0",
     "globals": "^16.4.0",
     "prettier": "^3.6.2",
     "vite": "^7.1.7"

@@ -14,9 +14,9 @@ import Food from './pages/Main/Food';
 import Potions from './pages/Main/Potions';
 import Achievements from './pages/Main/Achievements';
 import Enemies from './pages/Main/Enemies';
-import CharacterDetail from './pages/Detail/CharacterDetail';
-import WeaponDetail from './pages/Detail/WeaponDetail';
-import ArtifactDetail from './pages/Detail/ArtifactDetail';
+//import CharacterDetail from './pages/Detail/CharacterDetail';
+//import WeaponDetail from './pages/Detail/WeaponDetail';
+//import ArtifactDetail from './pages/Detail/ArtifactDetail';
 import About from './pages/Info/About';
 import NotFound from './pages/Info/NotFound';
 import './i18n';
@@ -40,15 +40,6 @@ function App() {
                 <Route path="/potions" element={<Potions />} />
                 <Route path="/achievements" element={<Achievements />} />
                 <Route path="/enemies" element={<Enemies />} />
-                <Route
-                  path="/character/:characterId"
-                  element={<CharacterDetail />}
-                />
-                <Route path="/weapon/:weaponId" element={<WeaponDetail />} />
-                <Route
-                  path="/artifact/:artifactId"
-                  element={<ArtifactDetail />}
-                />
                 <Route path="/about" element={<About />} />
                 <Route path="*" element={<NotFound />} />
               </Routes>
@@ -63,3 +54,15 @@ function App() {
 }
 
 export default App;
+
+/**
+<Route
+                  path="/character/:characterId"
+                  element={<CharacterDetail />}
+                />
+                <Route path="/weapon/:weaponId" element={<WeaponDetail />} />
+                <Route
+                  path="/artifact/:artifactId"
+                  element={<ArtifactDetail />}
+                />
+*/

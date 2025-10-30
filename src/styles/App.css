@@ -1343,6 +1343,414 @@ body {
   color: #feca57;
 }
 
+/* Detail Pages Styles */
+.detail-header {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  margin-bottom: 30px;
+  flex-wrap: wrap;
+}
+
+.back-button {
+  background: var(--bg-tertiary);
+  border: 1px solid var(--border-color);
+  color: var(--text-primary);
+  padding: 12px 20px;
+  border-radius: 10px;
+  cursor: pointer;
+  font-size: 1rem;
+  transition: all 0.3s;
+  text-decoration: none;
+  display: inline-block;
+}
+
+.back-button:hover {
+  background: var(--bg-secondary);
+  transform: translateX(-5px);
+}
+
+.detail-header h1 {
+  background: linear-gradient(45deg, #ff6b6b, #feca57, #48dbfb, #ff9ff3);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  margin: 0;
+}
+
+.detail-content {
+  display: grid;
+  grid-template-columns: 350px 1fr;
+  gap: 30px;
+}
+
+.detail-left {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.character-portrait,
+.weapon-portrait,
+.artifact-portrait {
+  text-align: center;
+}
+
+.character-portrait img,
+.weapon-portrait img,
+.artifact-portrait img {
+  width: 100%;
+  max-width: 320px;
+  border-radius: 20px;
+  box-shadow: 0 15px 35px rgba(0, 0, 0, 0.3);
+}
+
+.portrait-placeholder {
+  width: 320px;
+  height: 320px;
+  background: var(--bg-tertiary);
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 5rem;
+  margin: 0 auto;
+}
+
+.basic-info {
+  background: var(--bg-secondary);
+  padding: 25px;
+  border-radius: 15px;
+  border: 1px solid var(--border-color);
+}
+
+.info-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 12px 0;
+  border-bottom: 1px solid var(--border-color);
+}
+
+.info-item:last-child {
+  border-bottom: none;
+}
+
+.info-label {
+  font-weight: 600;
+  opacity: 0.8;
+  font-size: 0.9rem;
+}
+
+.info-value {
+  text-align: right;
+  font-weight: 500;
+}
+
+.bonus-info {
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 8px;
+}
+
+.bonus-text {
+  font-style: italic;
+  opacity: 0.9;
+  line-height: 1.4;
+}
+
+.detail-right {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.detail-section {
+  background: var(--bg-secondary);
+  padding: 30px;
+  border-radius: 15px;
+  border: 1px solid var(--border-color);
+}
+
+.detail-section h3 {
+  margin-bottom: 20px;
+  color: var(--accent-color);
+  border-bottom: 2px solid var(--accent-color);
+  padding-bottom: 10px;
+  font-size: 1.5rem;
+}
+
+/* Skills and Talents */
+.skills-grid {
+  display: grid;
+  gap: 20px;
+}
+
+.skill-item {
+  background: var(--bg-tertiary);
+  padding: 20px;
+  border-radius: 10px;
+  border-left: 4px solid var(--accent-color);
+}
+
+.skill-item h4 {
+  margin-bottom: 10px;
+  color: var(--text-primary);
+  font-size: 1.2rem;
+}
+
+.skill-item p {
+  line-height: 1.6;
+  margin-bottom: 15px;
+  opacity: 0.9;
+}
+
+.skill-meta {
+  background: rgba(72, 219, 251, 0.1);
+  padding: 8px 12px;
+  border-radius: 6px;
+}
+
+.skill-meta small {
+  color: var(--accent-color);
+  font-weight: 500;
+}
+
+/* Constellations */
+.constellations-grid {
+  display: grid;
+  gap: 15px;
+}
+
+.constellation-item {
+  background: var(--bg-tertiary);
+  padding: 20px;
+  border-radius: 10px;
+  border-left: 4px solid #9b59b6;
+}
+
+.constellation-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.constellation-item h4 {
+  color: #9b59b6;
+  font-size: 1.1rem;
+  margin: 0;
+}
+
+.constellation-level {
+  background: rgba(155, 89, 182, 0.2);
+  color: #9b59b6;
+  padding: 4px 8px;
+  border-radius: 12px;
+  font-size: 0.8rem;
+  font-weight: 600;
+}
+
+.constellation-item p {
+  line-height: 1.6;
+  opacity: 0.9;
+}
+
+/* Stats Table */
+.stats-table {
+  overflow-x: auto;
+}
+
+.stats-table table {
+  width: 100%;
+  border-collapse: collapse;
+  background: var(--bg-tertiary);
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.stats-table th,
+.stats-table td {
+  padding: 12px 15px;
+  text-align: left;
+  border-bottom: 1px solid var(--border-color);
+}
+
+.stats-table th {
+  background: var(--bg-secondary);
+  font-weight: 600;
+  color: var(--accent-color);
+}
+
+.stats-table tr:hover {
+  background: rgba(255, 255, 255, 0.03);
+}
+
+/* Ascension Materials */
+.ascension-materials {
+  display: grid;
+  gap: 20px;
+}
+
+.ascension-level {
+  background: var(--bg-tertiary);
+  padding: 15px;
+  border-radius: 10px;
+  border-left: 4px solid var(--accent-color);
+}
+
+.ascension-level h4 {
+  margin-bottom: 10px;
+  color: var(--accent-color);
+}
+
+.materials-list {
+  display: grid;
+  gap: 8px;
+  margin-bottom: 10px;
+}
+
+.material-item {
+  display: flex;
+  justify-content: space-between;
+  padding: 8px 12px;
+  background: var(--bg-secondary);
+  border-radius: 6px;
+  border: 1px solid var(--border-color);
+}
+
+.material-name {
+  opacity: 0.9;
+}
+
+.material-quantity {
+  color: var(--accent-color);
+  font-weight: 600;
+}
+
+/* Artifact Pieces */
+.artifact-pieces {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  gap: 20px;
+}
+
+.artifact-piece {
+  text-align: center;
+  background: var(--bg-tertiary);
+  padding: 15px;
+  border-radius: 10px;
+  border: 1px solid var(--border-color);
+}
+
+.artifact-piece h4 {
+  margin-bottom: 10px;
+  font-size: 0.9rem;
+  color: var(--text-primary);
+}
+
+.artifact-piece img {
+  width: 80px;
+  height: 80px;
+  border-radius: 10px;
+  object-fit: cover;
+}
+
+/* Source Info */
+.source-info ul {
+  list-style: none;
+  padding: 0;
+}
+
+.source-info li {
+  padding: 8px 0;
+  border-bottom: 1px solid var(--border-color);
+  position: relative;
+  padding-left: 20px;
+}
+
+.source-info li:before {
+  content: '📍';
+  position: absolute;
+  left: 0;
+}
+
+.source-info li:last-child {
+  border-bottom: none;
+}
+
+/* Effect Name */
+.effect-name {
+  margin-top: 10px;
+  padding: 10px;
+  background: var(--bg-tertiary);
+  border-radius: 8px;
+  border-left: 4px solid #feca57;
+}
+
+/* Error States */
+.error {
+  text-align: center;
+  padding: 80px 20px;
+}
+
+.error h2 {
+  color: #ff6b6b;
+  margin-bottom: 15px;
+  font-size: 2rem;
+}
+
+.error p {
+  margin-bottom: 25px;
+  opacity: 0.8;
+  font-size: 1.1rem;
+}
+
+.error button {
+  background: var(--accent-color);
+  color: var(--bg-primary);
+  border: none;
+  padding: 12px 25px;
+  border-radius: 8px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+.error button:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 5px 15px rgba(72, 219, 251, 0.4);
+}
+
+/* Responsive */
+@media (max-width: 968px) {
+  .detail-content {
+    grid-template-columns: 1fr;
+  }
+  
+  .detail-left {
+    order: 2;
+  }
+  
+  .detail-right {
+    order: 1;
+  }
+  
+  .character-portrait,
+  .weapon-portrait,
+  .artifact-portrait {
+    text-align: center;
+  }
+  
+  .portrait-image,
+  .portrait-placeholder {
+    max-width: 280px;
+  }
+}
+
+
 /* Responsive Design */
 @media (max-width: 768px) {
   .nav-menu {
@@ -1476,6 +1884,30 @@ body {
     left: 0;
     min-width: 200px;
   }
+  
+  .detail-header {
+    flex-direction: column;
+    gap: 15px;
+    text-align: center;
+  }
+  
+  .detail-section {
+    padding: 20px;
+  }
+  
+  .constellation-header {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 8px;
+  }
+  
+  .artifact-pieces {
+    grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+  }
+  
+  .stats-table {
+    font-size: 0.9rem;
+  }
 }
 
 @media (max-width: 480px) {
@@ -1516,6 +1948,19 @@ body {
   }
 
   .stats-grid {
+    grid-template-columns: 1fr;
+  }
+  
+  .detail-section {
+    padding: 15px;
+  }
+  
+  .skill-item,
+  .constellation-item {
+    padding: 15px;
+  }
+  
+  .artifact-pieces {
     grid-template-columns: 1fr;
   }
 }

@@ -29,7 +29,14 @@
     "category": "Category",
     "source": "Source",
     "reward": "Reward",
-    "requirements": "Requirements"
+    "requirements": "Requirements",
+    "element": "Element",
+    "weapon": "Weapon",
+    "region": "Region",
+    "constellation": "Constellation",
+    "birthday": "Birthday",
+    "notFound": "Not Found",
+    "source": "Source"
   },
   "home": {
     "title": "Genshin Impact Database",
@@ -43,20 +50,45 @@
     "weaponType": "Weapon Type",
     "allElements": "All Elements",
     "allWeapons": "All Weapons",
-    "allRarities": "All Rarities"
+    "allRarities": "All Rarities",
+    "notFound": "Character not found",
+    "skills": "Skills",
+    "passives": "Passive Talents",
+    "constellations": "Constellations",
+    "unlock": "Unlock"
   },
   "weapons": {
     "title": "Weapons",
     "subtitle": "Discover all weapons available in Teyvat",
     "searchPlaceholder": "Search weapons...",
     "allTypes": "All Types",
-    "allRarities": "All Rarities"
+    "allRarities": "All Rarities",
+    "notFound": "Weapon not found",
+    "baseAtk": "Base ATK",
+    "substat": "Substat",
+    "subvalue": "Substat Value",
+    "effectName": "Effect Name",
+    "stats": "Stats by Level",
+    "level": "Level",
+    "attack": "Attack",
+    "ascension": "Ascension",
+    "phase": "Phase",
+    "cost": "Cost"
   },
   "artifacts": {
     "title": "Artifacts",
     "subtitle": "Find the best artifact sets for your characters",
     "searchPlaceholder": "Search artifacts...",
-    "minRarity": "Minimum Rarity"
+    "minRarity": "Minimum Rarity",
+    "notFound": "Artifact not found",
+    "twoPiece": "2-Piece Bonus",
+    "fourPiece": "4-Piece Bonus",
+    "pieces": "Set Pieces",
+    "flower": "Flower of Life",
+    "plume": "Plume of Death",
+    "sands": "Sands of Eon",
+    "goblet": "Goblet of Eonothem",
+    "circlet": "Circlet of Logos"
   },
   "materials": {
     "title": "Materials",

@@ -3,7 +3,6 @@ import { useTranslation } from 'react-i18next';
 
 const LanguageContext = createContext();
 
-// eslint-disable-next-line react-refresh/only-export-components
 export const useLanguage = () => {
   const context = useContext(LanguageContext);
   if (!context) {
@@ -20,6 +19,7 @@ export const LanguageProvider = ({ children }) => {
     { code: 'en', name: 'English', nativeName: 'English', flag: '🇺🇸' },
     { code: 'es', name: 'Spanish', nativeName: 'Español', flag: '🇪🇸' },
     { code: 'fr', name: 'French', nativeName: 'Français', flag: '🇫🇷' },
+    { code: 'pt', name: 'Portuguese', nativeName: 'Português', flag: '🇵🇹' },
     { code: 'de', name: 'German', nativeName: 'Deutsch', flag: '🇩🇪' },
     { code: 'ja', name: 'Japanese', nativeName: '日本語', flag: '🇯🇵' },
     { code: 'ko', name: 'Korean', nativeName: '한국어', flag: '🇰🇷' },
@@ -27,7 +27,7 @@ export const LanguageProvider = ({ children }) => {
     { code: 'zh', name: 'Chinese', nativeName: '中文', flag: '🇨🇳' },
   ];
 
-  const changeLanguage = lng => {
+  const changeLanguage = (lng) => {
     i18n.changeLanguage(lng);
     setCurrentLanguage(lng);
   };

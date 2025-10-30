@@ -1,0 +1,129 @@
+{
+  "nav": {
+    "home": "Accueil",
+    "characters": "Personnages",
+    "weapons": "Armes",
+    "artifacts": "Artéfacts",
+    "materials": "Matériaux",
+    "food": "Nourriture",
+    "potions": "Potions",
+    "achievements": "Succès",
+    "enemies": "Ennemis",
+    "about": "À propos"
+  },
+  "common": {
+    "loading": "Chargement",
+    "search": "Rechercher",
+    "filters": "Filtres",
+    "clearFilters": "Effacer les filtres",
+    "activeFilters": "Filtres actifs",
+    "showing": "Affichage de",
+    "of": "sur",
+    "items": "éléments",
+    "back": "Retour",
+    "details": "Détails",
+    "description": "Description",
+    "effect": "Effet",
+    "rarity": "Rareté",
+    "type": "Type",
+    "category": "Catégorie",
+    "source": "Source",
+    "reward": "Récompense",
+    "requirements": "Conditions",
+    "element": "Élément",
+    "weapon": "Arme",
+    "region": "Région",
+    "constellation": "Constellation",
+    "birthday": "Anniversaire",
+    "notFound": "Non trouvé"
+  },
+  "home": {
+    "title": "Base de données Genshin Impact",
+    "subtitle": "Explorez tout le contenu du monde de Teyvat"
+  },
+  "characters": {
+    "title": "Personnages",
+    "subtitle": "Découvrez tous les personnages jouables de Genshin Impact",
+    "searchPlaceholder": "Rechercher des personnages...",
+    "element": "Élément",
+    "weaponType": "Type d'arme",
+    "allElements": "Tous les éléments",
+    "allWeapons": "Toutes les armes",
+    "allRarities": "Toutes les raretés",
+    "notFound": "Personnage non trouvé",
+    "skills": "Compétences",
+    "passives": "Talents passifs",
+    "constellations": "Constellations",
+    "unlock": "Déblocage"
+  },
+  "weapons": {
+    "title": "Armes",
+    "subtitle": "Découvrez toutes les armes disponibles à Teyvat",
+    "searchPlaceholder": "Rechercher des armes...",
+    "allTypes": "Tous les types",
+    "allRarities": "Toutes les raretés",
+    "notFound": "Arme non trouvée",
+    "baseAtk": "ATQ de base",
+    "substat": "Sous-statistique",
+    "subvalue": "Valeur de sous-stat",
+    "effectName": "Nom de l'effet",
+    "stats": "Stats par niveau",
+    "level": "Niveau",
+    "attack": "Attaque",
+    "ascension": "Ascension",
+    "phase": "Phase",
+    "cost": "Coût"
+  },
+  "artifacts": {
+    "title": "Artéfacts",
+    "subtitle": "Trouvez les meilleurs sets d'artéfacts pour vos personnages",
+    "searchPlaceholder": "Rechercher des artéfacts...",
+    "minRarity": "Rareté minimale",
+    "notFound": "Artéfact non trouvé",
+    "twoPiece": "Bonus 2 pièces",
+    "fourPiece": "Bonus 4 pièces",
+    "pieces": "Pièces du set",
+    "flower": "Fleur de la vie",
+    "plume": "Plume de la mort",
+    "sands": "Sables du temps",
+    "goblet": "Coupe d'éonothème",
+    "circlet": "Diadème de logique"
+  },
+  "materials": {
+    "title": "Matériaux",
+    "subtitle": "Trouvez tous les matériaux pour l'ascension, les talents et l'artisanat",
+    "searchPlaceholder": "Rechercher des matériaux...",
+    "allTypes": "Tous les types"
+  },
+  "food": {
+    "title": "Nourriture",
+    "subtitle": "Découvrez toutes les recettes culinaires de Teyvat et leurs effets",
+    "searchPlaceholder": "Rechercher de la nourriture...",
+    "dishType": "Type de plat",
+    "allDishes": "Tous les plats"
+  },
+  "potions": {
+    "title": "Potions",
+    "subtitle": "Explorez les potions et leurs effets en combat",
+    "searchPlaceholder": "Rechercher des potions..."
+  },
+  "achievements": {
+    "title": "Succès",
+    "subtitle": "Découvrez tous les succès et récompenses disponibles",
+    "searchPlaceholder": "Rechercher des succès..."
+  },
+  "enemies": {
+    "title": "Ennemis",
+    "subtitle": "Rencontrez les ennemis que vous croiserez lors de votre aventure à Teyvat",
+    "searchPlaceholder": "Rechercher des ennemis..."
+  },
+  "about": {
+    "title": "À propos",
+    "subtitle": "Informations sur cette application et crédits"
+  },
+  "notFound": {
+    "title": "Page non trouvée",
+    "message": "Oups ! On dirait que vous vous êtes perdu dans le vaste monde de Teyvat.",
+    "suggestions": "Peut-être vouliez-vous visiter :"
+  }
+}

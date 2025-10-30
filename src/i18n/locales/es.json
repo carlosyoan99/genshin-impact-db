@@ -29,7 +29,14 @@
     "category": "Categoría",
     "source": "Fuente",
     "reward": "Recompensa",
-    "requirements": "Requisitos"
+    "requirements": "Requisitos",
+    "element": "Elemento",
+    "weapon": "Arma",
+    "region": "Región",
+    "constellation": "Constelación",
+    "birthday": "Cumpleaños",
+    "notFound": "No Encontrado",
+    "source": "Fuente"
   },
   "home": {
     "title": "Base de Datos de Genshin Impact",
@@ -43,20 +50,45 @@
     "weaponType": "Tipo de Arma",
     "allElements": "Todos los Elementos",
     "allWeapons": "Todas las Armas",
-    "allRarities": "Todas las Rarezas"
+    "allRarities": "Todas las Rarezas",
+    "notFound": "Personaje no encontrado",
+    "skills": "Habilidades",
+    "passives": "Talentos Pasivos",
+    "constellations": "Constelaciones",
+    "unlock": "Desbloqueo"
   },
   "weapons": {
     "title": "Armas",
     "subtitle": "Descubre todas las armas disponibles en Teyvat",
     "searchPlaceholder": "Buscar armas...",
     "allTypes": "Todos los Tipos",
-    "allRarities": "Todas las Rarezas"
+    "allRarities": "Todas las Rarezas",
+    "notFound": "Arma no encontrada",
+    "baseAtk": "ATQ Base",
+    "substat": "Substat",
+    "subvalue": "Valor de Substats",
+    "effectName": "Nombre del Efecto",
+    "stats": "Estadísticas por Nivel",
+    "level": "Nivel",
+    "attack": "Ataque",
+    "ascension": "Ascensión",
+    "phase": "Fase",
+    "cost": "Costo"
   },
   "artifacts": {
     "title": "Artefactos",
     "subtitle": "Encuentra los mejores sets de artefactos para tus personajes",
     "searchPlaceholder": "Buscar artefactos...",
-    "minRarity": "Rareza Mínima"
+    "minRarity": "Rareza Mínima",
+    "notFound": "Artefacto no encontrado",
+    "twoPiece": "Bono de 2 Piezas",
+    "fourPiece": "Bono de 4 Piezas",
+    "pieces": "Piezas del Set",
+    "flower": "Flor de la Vida",
+    "plume": "Pluma de la Muerte",
+    "sands": "Arenas del Eon",
+    "goblet": "Cáliz de Eonothem",
+    "circlet": "Tiara de Logos"
   },
   "materials": {
     "title": "Materiales",

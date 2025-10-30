@@ -5,27 +5,24 @@ import LanguageDetector from 'i18next-browser-languagedetector';
 // Importar traducciones
 import en from './locales/en.json';
 import es from './locales/es.json';
+/*
 import fr from './locales/fr.json';
-import pt from './locales/pt.json';
-//import de from './locales/de.json';
-//import ja from './locales/ja.json';
-//import ko from './locales/ko.json';
+import de from './locales/de.json';
+import ja from './locales/ja.json';
+import ko from './locales/ko.json';
 import ru from './locales/ru.json';
-//import zh from './locales/zh.json';
-
+import zh from './locales/zh.json';
+*/
 const resources = {
   en: { translation: en },
   es: { translation: es },
   fr: { translation: fr },
-  pt: { translation: pt },
-  ru: { translation: ru },
-};
-/**
- de: { translation: de },
+  de: { translation: de },
   ja: { translation: ja },
   ko: { translation: ko },
+  ru: { translation: ru },
   zh: { translation: zh },
-*/
+};
 
 i18n
   .use(LanguageDetector)
@@ -33,6 +30,7 @@ i18n
   .init({
     resources,
     fallbackLng: 'en',
+    // eslint-disable-next-line no-undef
     debug: process.env.NODE_ENV === 'development',
     interpolation: {
       escapeValue: false,
