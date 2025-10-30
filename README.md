@@ -30,18 +30,15 @@ A comprehensive and beautifully designed database for Genshin Impact built with 
 
 ### Prerequisites
 
-<<<<<<< HEAD
-- Node.js 16+ 
-=======
 - Node.js 16+
->>>>>>> 6dffbf6 (Actualizando algunos detalles y el idioma)
 - npm or yarn
 
 ### Installation
 
 1. Clone the repository
-<<<<<<< HEAD
-```bash
+   <<<<<<< HEAD
+
+````bash
 git clone https://github.com/carlosyoan99/genshin-impact-db.git
 cd genshin-impact-db
 =======
@@ -49,5 +46,6 @@ cd genshin-impact-db
 ```bash
 git clone https://github.com/TU_USUARIO/genshin-impact-db.git
 cd genshin-impact-db
-```
->>>>>>> 6dffbf6 (Actualizando algunos detalles y el idioma)
+````
+
+> > > > > > > 6dffbf6 (Actualizando algunos detalles y el idioma)
