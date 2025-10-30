@@ -13,6 +13,7 @@ export default defineConfig({
     sourcemap: true,
   },
   esbuild: {
+    base: 'genshin-impact-db',
     loader: 'jsx',
   },
   optimizeDeps: {
