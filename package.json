@@ -10,7 +10,8 @@
     "lint:fix": "eslint . --ext js,jsx --fix",
     "preview": "vite preview",
     "format": "prettier --write .",
-    "format:check": "prettier --check ."
+    "format:check": "prettier --check .",
+    "deploy": "npm run build && gh-page -d dist"
   },
   "dependencies": {
     "genshin-data": "^0.55.0",
