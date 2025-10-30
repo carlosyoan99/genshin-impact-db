@@ -37,5 +37,5 @@ A comprehensive and beautifully designed database for Genshin Impact built with 
 
 1. Clone the repository
 ```bash
-git clone https://github.com/TU_USUARIO/genshin-impact-db.git
+git clone https://github.com/carlosyoan99/genshin-impact-db.git
 cd genshin-impact-db
